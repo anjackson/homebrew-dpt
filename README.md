@@ -1,41 +1,23 @@
-Homebrew-alt
+Homebrew-dpt
 ============
-This repository contains "unofficial" formulae for [Homebrew](https://github.com/mxcl/homebrew).
+This repository contains formulae for [Homebrew](https://github.com/mxcl/homebrew) that I'm using as Digital Preservation Tools.
 
-ATTN: the `duplicates` and `versions` directories have been moved to their own repositories:
-
- * [homebrew-dupes][]
- * [homebrew-versions][]
-
-Installing Homebrew-alt Formulae
+Installing Homebrew-dpt Formulae
 --------------------------------
-Just `brew tap adamv/alt` and then `brew install <formula>`.
+Just `brew tap anjackson/dpt` and then `brew install <formula>`.
 
-If the formula conflicts with one in mxcl/master, you can `brew install adamv/alt/<formula>`.
+If the formula conflicts with one in mxcl/master, you can `brew install anjackson/dpt/<formula>`.
 
 You can also install via URL:
 
 ```
-brew install https://raw.github.com/adamv/homebrew-alt/master/<directory>/<formula>.rb
+brew install https://raw.github.com/anjackson/homebrew-dpt/master/<directory>/<formula>.rb
 ```
 
 Categories
 ----------
-  * **fonts**  
-
-  * **head-only**  
-  Formulae that provide only the latest development HEAD.
-
-  * **mono**  
-
-  * **non-free**  
-  Formulae that provide non-free software.
-
-  * **other**  
-  Miscellaneous formulae that do not meet the criteria for acceptance into mxcl/master.
-
-  * **unmaintained**  
-  Formulae for abandoned and unmaintained software.
+  * **TBA**  
+  Formulae that 
 
 Docs
 ----
