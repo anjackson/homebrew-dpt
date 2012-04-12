@@ -10,7 +10,15 @@ class Tika < Formula
   # depends_on 'cmake'
 
   def install
-    prefix.install ['tika-app-#{version}.jar']
+    lib.install ['tika-app-#{version}.jar']
+    myStr = <<-EOF
+#!/bin/sh
+java -jar #{prefix/lib/tika-app-#{version}.jar
+EOF
+    aFile = File.new("tika", "w")
+    aFile.write(myStr)
+    aFile.close
+    bin.install ['tika']
   end
 
   def test
