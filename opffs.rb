@@ -2,7 +2,7 @@ require 'formula'
 
 class Opffs < Formula
   url 'https://github.com/openplanets/opffs/tarball/master'
-  homepage 'http://www.openplanetsfoundation.org/:w'
+  homepage 'http://www.openplanetsfoundation.org/'
   md5 'd19337aec21e095108d734959967148b'
   version '0.0.1'
 
