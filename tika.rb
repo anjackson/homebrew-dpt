@@ -10,7 +10,7 @@ class Tika < Formula
   # depends_on 'cmake'
 
   def install
-    prefix.install ['tika-app-*.jar']
+    prefix.install ['tika-app-#{version}.jar']
   end
 
   def test
