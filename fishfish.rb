@@ -8,9 +8,8 @@ class Fishfish < Formula
 
   head 'git://gitorious.org/~ridiculousfish/fish-shell/fishfish.git'
 
-  # Indeed, the head build always builds documentation
-  depends_on 'doxygen' => :build if ARGV.build_head?
-  depends_on 'autoconf' => :build if MacOS.xcode_version.to_f >= 4.3 and ARGV.build_head?
+  depends_on 'doxygen' 
+  depends_on 'autoconf' => :build if MacOS.xcode_version.to_f >= 4.3
   depends_on 'readline'
   skip_clean 'share/doc'
 
@@ -18,6 +17,7 @@ class Fishfish < Formula
     system "autoconf"
     system "./configure", "--prefix=#{prefix}", "--without-xsel"
     system "make"
+    system "make doc"
     system "make install"
   end
 
