@@ -17,6 +17,7 @@ class Fishfish < Formula
   def install
     system "autoconf"
     system "./configure", "--prefix=#{prefix}", "--without-xsel"
+    system "make"
     system "make install"
   end
 
