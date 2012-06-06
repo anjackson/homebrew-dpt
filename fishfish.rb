@@ -15,7 +15,7 @@ class Fishfish < Formula
   skip_clean 'share/doc'
 
   def install
-    system "autoconf" if ARGV.build_head?
+    system "autoconf"
     system "./configure", "--prefix=#{prefix}", "--without-xsel"
     system "make install"
   end
