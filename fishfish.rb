@@ -4,7 +4,7 @@ class FishFish < Formula
   url 'http://ridiculousfish.com/shell/files/fishfish.tar.gz'
   version '0.9.1'
   homepage 'http://ridiculousfish.com/shell/'
-  md5 'ead6b7c6cdb21f35a3d4aa1d5fa596f1'
+  md5 'ebe5fe17f6925b9142aadc8ebae5fba1'
 
   head 'git://gitorious.org/~ridiculousfish/fish-shell/fishfish.git'
 
