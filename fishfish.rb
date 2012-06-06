@@ -1,6 +1,6 @@
 require 'formula'
 
-class FishFish < Formula
+class Fishfish < Formula
   url 'http://ridiculousfish.com/shell/files/fishfish.tar.gz'
   version '0.9.1'
   homepage 'http://ridiculousfish.com/shell/'
